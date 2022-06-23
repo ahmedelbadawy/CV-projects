@@ -1,7 +1,17 @@
 # PCA
 The objective of this project is to highlight the importance of linear algebra in the field of computer vision and face recognition. Eigenface is the name of a set of eigenvectors computed from an image dataset. Eigenvectors is a set of features which characterize the global variation among face images.The basis of the eigenfaces method is the Principal Component Analysis (PCA). PCA is a dimensionality-reduction method that is often used to reduce the dimensionality of large data sets, by transforming a large set of variables into a smaller one that still contains most of the information in the large set. Roc & auc were made from scratch by making a cunfusion matrix for the tested cases, which are multi classes, then calculate sensitivity vs specificity.
 
+## Team Work:
 
+| Name | SEC | BN |
+| ----------- | ----------- | ----------- |
+| Ahmed Elbadawy | 1 | 4 |
+| Zeyad Khaled | 1 | 35 |
+| Abdelrahman Gamal | 1 | 46 |
+| Abdallah Mohamed  | 1 | 49 |
+| Amr Mohamed | 2 | 5 |
+
+----
 
 ## Setup
 1. From the command line create a virtual environment and activate.
@@ -65,13 +75,4 @@ class Face_recognition(eigen_faces_num=50,threshold=2250)
 
 ---
 
-## Team Work:
-
-| Name | SEC | BN |
-| ----------- | ----------- | ----------- |
-| Ahmed Elbadawy | 1 | 4 |
-| Zeyad Khaled | 1 | 35 |
-| Abdelrahman Gamal | 1 | 46 |
-| Abdallah Mohamed  | 1 | 49 |
-| Amr Mohamed | 2 | 5 |
 
